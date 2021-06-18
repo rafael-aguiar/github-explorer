@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronRight } from 'react-icons/fi';
 
 import logoImg from '../../assets/logo.svg';
 
@@ -16,11 +17,62 @@ const Dashboard: React.FC = () => {
       </Form>
 
       <Repositories>
-        <a href="teste ">Repo 1</a>
-        <img
-          src="https://avatars.githubusercontent.com/u/57225173?v=4"
-          alt=""
-        />
+        <a href="teste ">
+          <img
+            src="https://avatars.githubusercontent.com/u/57225173?v=4"
+            alt=""
+          />
+          <div>
+            <strong>gobarber</strong>
+            <p>
+              Aplicação para agendamentos. Feita com Typescript, Node.js e
+              Typeorm
+            </p>
+          </div>
+          <FiChevronRight size={24} />
+        </a>
+        <a href="teste ">
+          <img
+            src="https://avatars.githubusercontent.com/u/57225173?v=4"
+            alt=""
+          />
+          <div>
+            <strong>gobarber</strong>
+            <p>
+              Aplicação para agendamentos. Feita com Typescript, Node.js e
+              Typeorm
+            </p>
+          </div>
+          <FiChevronRight size={24} />
+        </a>
+        <a href="teste ">
+          <img
+            src="https://avatars.githubusercontent.com/u/57225173?v=4"
+            alt=""
+          />
+          <div>
+            <strong>gobarber</strong>
+            <p>
+              Aplicação para agendamentos. Feita com Typescript, Node.js e
+              Typeorm
+            </p>
+          </div>
+          <FiChevronRight size={24} />
+        </a>
+        <a href="teste ">
+          <img
+            src="https://avatars.githubusercontent.com/u/57225173?v=4"
+            alt=""
+          />
+          <div>
+            <strong>gobarber</strong>
+            <p>
+              Aplicação para agendamentos. Feita com Typescript, Node.js e
+              Typeorm
+            </p>
+          </div>
+          <FiChevronRight size={24} />
+        </a>
       </Repositories>
     </>
   );
