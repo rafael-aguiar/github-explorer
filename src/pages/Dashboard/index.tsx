@@ -8,13 +8,11 @@ import logoImg from '../../assets/logo.svg';
 import { Title, Form, Repositories, Error } from './styles';
 
 interface Repository {
-  // eslint-disable-next-line
-  full_name: string;
+  full_name: string; //eslint-disable-line
   description: string;
   owner: {
     login: string;
-    // eslint-disable-next-line
-    avatar_url: string;
+    avatar_url: string; //eslint-disable-line
   };
 }
 
